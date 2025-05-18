@@ -55,7 +55,7 @@ function page() {
   }
   async function createUser() {
     try {
-      let response = await axios.post(`http://localhost:4000/user/create`, {
+      let response = await axios.post(`${process.env.NEXT_PUBLIC_BACKEND_URL}/user/create`, {
         username: user?.fullName || "Anonymous",
         email: user?.emailAddresses[0].emailAddress,
         imageUrl: user?.imageUrl

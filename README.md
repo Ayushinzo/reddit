@@ -58,7 +58,7 @@ A full-stack Reddit clone built with Next.js 13, Express.js, and MongoDB. Featur
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/reddit-clone.git
+git clone https://github.com/Ayushinzo/reddit.git
 cd reddit-clone
 ```
 

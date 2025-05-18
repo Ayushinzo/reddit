@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import axios from 'axios'
-import Suggestions from '@/app/(components)/suggestions'
+import Suggestions from '@/app/(components)/Suggestions'
 import UploadPostData from '@/app/(components)/UploadPostData'
 
 function page() {
